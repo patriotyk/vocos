@@ -9,14 +9,14 @@ data:
       sampling_rate: 22050
       num_samples: 24903
       batch_size: 16
-      num_workers: 8
+      num_workers: 4
 
     val_params:
       filelist_path: val.log
       sampling_rate: 22050
       num_samples: 2766
       batch_size: 16
-      num_workers: 8
+      num_workers: 4
 
 model:
   class_path: vocos.experiment.VocosExp
